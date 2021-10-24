@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/75f77acec6.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <title>The Brand Shop</title>
+</head>
+<body>
+<div id="app">
+    <header class="header">
+        <div class="container__stand">
+            <div class="top__bar">
+                <ul class="top__left">
+                    <li class ="top__list"><a href="index.html"><img src="photo/brand-logo.png" alt="brand"></a></li>
+                    <li class ="top__list"><filter-el></filter-el></li>
+                </ul>
+                <ul class="top__right">
+                    <li class="top__list"><a href="#"><img src="photo/burger-logo.svg" alt="menu"></a>
+                        <nav class="mega__box">
+                            <img class="close__mega__box" src="photo/close-logo.svg" alt="close">
+                            <h3 class="mega__box__heading">menu</h3>
+                            <div class="menu__box">
+                                <h3 class="menu__box__subheading">man</h3>
+                                <a class="menu__box__link" href="">Accessories</a>
+                                <a class="menu__box__link" href="">Bags</a>
+                                <a class="menu__box__link" href="">Denim</a>
+                                <a class="menu__box__link" href="">T-Shirts</a>
+                            </div>
+                            <div class="menu__box">
+                                <h3 class="menu__box__subheading">woman</h3>
+                                <a class="menu__box__link" href="">Accessories</a>
+                                <a class="menu__box__link" href="">Jackets & Coats</a>
+                                <a class="menu__box__link" href="">Polos</a>
+                                <a class="menu__box__link" href="">T-Shirts</a>
+                                <a class="menu__box__link" href="">Shirts</a>
+                            </div>
+                            <div class="menu__box">
+                                <h3 class="menu__box__subheading">kids</h3>
+                                <a class="menu__box__link" href="">Accessories</a>
+                                <a class="menu__box__link" href="">Jackets & Coats</a>
+                                <a class="menu__box__link" href="">Polos</a>
+                                <a class="menu__box__link" href="">T-Shirts</a>
+                                <a class="menu__box__link" href="">Shirts</a>
+                                <a class="menu__box__link" href="">Bags</a>
+                            </div>    
+                        </nav>
+                    </li>
+                    <li class="top__list registration"><a href="registration.html"><img src="photo/profile-logo.svg" alt="login"></a></li>
+                    <li class="top__list cart"><cart ref="cart"></cart></li>
+                </ul>
+            </div>
+        </div>   
+    </header>
+    <div class="top__info">
+        <div class="container__wide">
+            <div class="top__info__box">
+                <img class="top-info-photo" src="photo/front-man.png" alt="man">
+                <div class="top__brand">
+                    <div class="brand__element"></div>
+                    <div class="top__header">
+                        <h1 class="top__header__brand">the brand</h1>
+                        <h2 class="top__subheader__brand">of luxerious <span class="pink__elements">fashion</span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <nav class="menu">
+        <div class="container__stand">
+            <div class="menu__box">
+                <div class="menu__card__box">
+                    <a class="menu__card__link women" href="catalog.html">
+                        <p class="menu__text">30% OFF<br/><span class="menu__span pink__elements">FOR WOMEN</span></p>
+                    </a>
+                    <a class="menu__card__link men" href="catalog.html">
+                        <p class="menu__text">hot deal<br/><span class="menu__span pink__elements">FOR MEN</span></p>
+                    </a>
+                    <a class="menu__card__link kids" href="catalog.html">
+                        <p class="menu__text">new arrivals<br/><span class="menu__span pink__elements">FOR KIDS</span></p>
+                    </a>
+                </div>
+                <div class="menu__card__accesories">
+                    <a class="menu__card__link accesories" href="catalog.html">
+                        <p class="menu__text__accesories">luxurious & trendy<br/><span class="menu__span pink__elements">accesories</span></p>
+                    </a>
+                </div>
+            </div> 
+        </div>      
+    </nav>
+    <section class="featured__items">
+        <div class="container__stand">
+                <h3 class="featured__items__heading">Featured Items</h3>
+                <p class="featured__items__paragraph">Shop for items based on what we featured in this week</p>
+                <products ref="products"></products>
+                <div class="button">
+                    <a class="featured__items__button" href="catalog.html">Browse All Product</a>
+                </div>
+        </div>
+    </section>
+    <article class="advantages">
+        <div class="container__stand">
+            <div class="advantages__box">
+                <div class="advantages__item">
+                    <img class="advantages__photo" src="photo/truck-logo.svg" alt="truck">
+                    <h3 class="advantages__subheading">Free Delivery</h3>
+                    <p class="advantages__paragraph">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                </div>
+                <div class="advantages__item">
+                    <img class="advantages__photo" src="photo/sale-logo.svg" alt="sale">
+                    <h3 class="advantages__subheading">Sales & discounts</h3>
+                    <p class="advantages__paragraph">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                </div>
+                <div class="advantages__item">
+                    <img class="advantages__photo" src="photo/quality-logo.svg" alt="truck">
+                    <h3 class="advantages__subheading">Quality assurance</h3>
+                    <p class="advantages__paragraph">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                </div>
+            </div>   
+        </div>
+    </article>
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="container__stand">
+                <div class="footer__top__box">
+                    <figure class="citation">
+                        <img src="photo/citation-photo.png" alt="photo" class="citation__photo">
+                        <p class="citation__text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,<span class="italic"> a pulvinar purus condimentum</span>“</p>
+                    </figure>
+                    <div class="subscribe__box">
+                        <h3 class="subscribe__subheading">Subscribe</h3>
+                        <p class="subscribe__text">FOR OUR NEWLETTER AND PROMOTION</p>
+                        <form class="subscribe__input__box" action="#">
+                            <input class="entry__field" type="email" placeholder="Enter Your Email">
+                            <button class="subscribe__button" type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container__stand">
+                <div class="footer__bottom__box">
+                    <p class="footer__bottom__left">© 2021 Brand All Rights Reserved.</p>
+                    <div class="social__media__box">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </footer>
+</div>
+    <script src="js/vue.js"></script>
+    <script src="js/ProductComponent.js"></script>
+    <script src="js/CartComponent.js"></script>
+    <script src="js/FilterComp.js"></script>
+    <script src="js/ErrorComp.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

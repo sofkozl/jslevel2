@@ -1,0 +1,32 @@
+[
+  {
+    "id_product": 111,
+    "product_name": "Down jacket",
+    "price": 4990
+  },
+  {
+    "id_product": 222,
+    "product_name": "Costume",
+    "price": 19900
+  },
+  {
+    "id_product": 333,
+    "product_name": "Hoodie",
+    "price": 5500
+  },
+  {
+    "id_product": 444,
+    "product_name": "Pants",
+    "price": 5400
+  },
+  {
+    "id_product": 555,
+    "product_name": "Jacket",
+    "price": 6300
+  },
+  {
+    "id_product": 666,
+    "product_name": "Blouse",
+    "price": 3500
+  }
+]
